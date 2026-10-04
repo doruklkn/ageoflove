@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: 03a7a9df700c23e45b39da2e278598dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1020153397722895855
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_0"
+  - first:
+      213: 1375464023300026836
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_1"
+  - first:
+      213: 6536763605774739136
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_2"
+  - first:
+      213: -3083234666085594540
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_3"
+  - first:
+      213: 4775858700580186116
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_4"
+  - first:
+      213: -6894447394831863314
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_5"
+  - first:
+      213: 8140189187312183006
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_6"
+  - first:
+      213: 4507161687418416914
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_7"
+  - first:
+      213: 7350453474308687909
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_8"
+  - first:
+      213: 6294176466589039735
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_9"
+  - first:
+      213: 8015413481554394028
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_10"
+  - first:
+      213: 2694866208347741979
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_11"
+  - first:
+      213: -3928571846604600342
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_12"
+  - first:
+      213: -6421197328324765864
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_13"
+  - first:
+      213: -3802250981905310747
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_14"
+  - first:
+      213: -3323955275336156684
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_15"
+  - first:
+      213: 5169654542886134836
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_16"
+  - first:
+      213: -9167343767878956475
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_17"
+  - first:
+      213: 719518742307269018
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_18"
+  - first:
+      213: -2308534380312144528
+    second: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_19"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_0"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 47
+        width: 1050
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe55ea73c10582e00800000000000000
+      internalID: 1020153397722895855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_1"
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1152
+        width: 109
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1b02edd31a61310800000000000000
+      internalID: 1375464023300026836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_2"
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1140
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6a7eebddf37ba50800000000000000
+      internalID: 6536763605774739136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_3"
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1135
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a4cc828662635d0800000000000000
+      internalID: -3083234666085594540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_4"
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1118
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4086a814f22474240800000000000000
+      internalID: 4775858700580186116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_5"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1108
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1fd6c6f900250a0800000000000000
+      internalID: -6894447394831863314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_6"
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1084
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6e732ffe2c7f070800000000000000
+      internalID: 8140189187312183006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_7"
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 883
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f23dbbca7ac8e30800000000000000
+      internalID: 4507161687418416914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_8"
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 867
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52884329d7e020660800000000000000
+      internalID: 7350453474308687909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_9"
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 821
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cb9acf528695750800000000000000
+      internalID: 6294176466589039735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_10"
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 793
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab3def08187c3f60800000000000000
+      internalID: 8015413481554394028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_11"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 771
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f55c9d986166520800000000000000
+      internalID: 2694866208347741979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_12"
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 638
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb488058b8ea79c0800000000000000
+      internalID: -3928571846604600342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_13"
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 622
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857d3840d0353e6a0800000000000000
+      internalID: -6421197328324765864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_14"
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 563
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb57ac80e0bb3bc0800000000000000
+      internalID: -3802250981905310747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_15"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 470
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f97d44c940fed1d0800000000000000
+      internalID: -3323955275336156684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_16"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 469
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4346630ba6d4eb740800000000000000
+      internalID: 5169654542886134836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_17"
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 385
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a0fade96d07c080800000000000000
+      internalID: -9167343767878956475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_18"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 355
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99e574eb7e3cf900800000000000000
+      internalID: 719518742307269018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_19"
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075d7b5563076ffd0800000000000000
+      internalID: -2308534380312144528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_0": 1020153397722895855
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_1": 1375464023300026836
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_10": 8015413481554394028
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_11": 2694866208347741979
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_12": -3928571846604600342
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_13": -6421197328324765864
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_14": -3802250981905310747
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_15": -3323955275336156684
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_16": 5169654542886134836
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_17": -9167343767878956475
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_18": 719518742307269018
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_19": -2308534380312144528
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_2": 6536763605774739136
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_3": -3083234666085594540
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_4": 4775858700580186116
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_5": -6894447394831863314
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_6": 8140189187312183006
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_7": 4507161687418416914
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_8": 7350453474308687909
+      "Piksel Sanat\u0131nda T\xFCrk Bayra\u011F\u0131 Amblemi_9": 6294176466589039735
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
