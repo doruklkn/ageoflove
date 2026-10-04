@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LetterSpawner : MonoBehaviour
+public class LetterSpawner_doruk : MonoBehaviour
 {
     public GameObject letterPrefab;
 
@@ -18,7 +18,10 @@ public class LetterSpawner : MonoBehaviour
             transform.parent
         );
 
-        LetterMovement movement = newLetter.GetComponent<LetterMovement>();
-        movement.targetCircle = GameObject.Find("targetCircle").GetComponent<RectTransform>();
+        LetterMovement_doruk movement =
+            newLetter.GetComponent<LetterMovement_doruk>();
+
+        movement.targetCircle =
+            GameObject.Find("targetCircle").GetComponent<RectTransform>();
     }
 }
