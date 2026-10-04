@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 8584ed83cd3324345baf9a35cf43275b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9044899354314485795
+    second: player1_doruklast_0
+  - first:
+      213: -4265416464546066368
+    second: player1_doruklast_1
+  - first:
+      213: 6211475961593468945
+    second: player1_doruklast_2
+  - first:
+      213: 876473748685105665
+    second: player1_doruklast_3
+  - first:
+      213: -13691274706898827
+    second: player1_doruklast_4
+  - first:
+      213: -2947010556528148015
+    second: player1_doruklast_5
+  - first:
+      213: 3685900293590023530
+    second: player1_doruklast_6
+  - first:
+      213: -6837048769037420375
+    second: player1_doruklast_7
+  - first:
+      213: 6759269050731433059
+    second: player1_doruklast_8
+  - first:
+      213: 3821074238651328755
+    second: player1_doruklast_9
+  - first:
+      213: 6717703378223598797
+    second: player1_doruklast_10
+  - first:
+      213: 4639044975985857890
+    second: player1_doruklast_11
+  - first:
+      213: -2952018010230641491
+    second: player1_doruklast_12
+  - first:
+      213: -4685351863309165525
+    second: player1_doruklast_13
+  - first:
+      213: 6447197851754417092
+    second: player1_doruklast_14
+  - first:
+      213: -3722626020133402425
+    second: player1_doruklast_15
+  - first:
+      213: -3253792414220083166
+    second: player1_doruklast_16
+  - first:
+      213: -8194889945426070756
+    second: player1_doruklast_17
+  - first:
+      213: -3902786489016789822
+    second: player1_doruklast_18
+  - first:
+      213: 6601143086137993829
+    second: player1_doruklast_19
+  - first:
+      213: 6209074340222131182
+    second: player1_doruklast_20
+  - first:
+      213: 5385072835631610204
+    second: player1_doruklast_21
+  - first:
+      213: 2593643920184628171
+    second: player1_doruklast_22
+  - first:
+      213: 5082056561939657209
+    second: player1_doruklast_23
+  - first:
+      213: 1447045480019104846
+    second: player1_doruklast_24
+  - first:
+      213: -725057895394512065
+    second: player1_doruklast_25
+  - first:
+      213: -6704425505014296856
+    second: player1_doruklast_26
+  - first:
+      213: -5282885990071486205
+    second: player1_doruklast_27
+  - first:
+      213: -5359882948352368668
+    second: player1_doruklast_28
+  - first:
+      213: -8816024185577563286
+    second: player1_doruklast_29
+  - first:
+      213: -6644469261548916708
+    second: player1_doruklast_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player1_doruklast_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfccec85ff0a7280800000000000000
+      internalID: -9044899354314485795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player1_doruklast_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04011ab13523ec4c0800000000000000
+      internalID: -4265416464546066368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player1_doruklast_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11818ad2a78933650800000000000000
+      internalID: 6211475961593468945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player1_doruklast_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10aa45d0b3cd92c00800000000000000
+      internalID: 876473748685105665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 22df622e05f7d7f42b7817fa21bdda5e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":350.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      player1_doruklast_0: -9044899354314485795
+      player1_doruklast_1: -4265416464546066368
+      player1_doruklast_2: 6211475961593468945
+      player1_doruklast_3: 876473748685105665
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
