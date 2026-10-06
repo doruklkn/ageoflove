@@ -19,7 +19,9 @@ public class Level3Manager : MonoBehaviour
     public GameObject levelCompletedPanel;
     public float panelFadeDuration = 1.0f;
     public float delayBeforeNextScene = 2.5f;
-    public string nextSceneName = "Scene4";
+
+    [Header("Scene 3 Geçiş")]
+    public Scene3Fade scene3Fade;
 
     [Header("Görsel Efektler")]
     public Image screenFlashImage;
@@ -60,11 +62,13 @@ public class Level3Manager : MonoBehaviour
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();
 
         audioSource.playOnAwake = false;
         audioSource.loop = true;
+
         sampleRate = AudioSettings.outputSampleRate;
     }
 
@@ -73,12 +77,16 @@ public class Level3Manager : MonoBehaviour
         if (levelCompletedPanel != null)
         {
             CanvasGroup cg = levelCompletedPanel.GetComponent<CanvasGroup>();
-            if (cg == null) cg = levelCompletedPanel.AddComponent<CanvasGroup>();
+
+            if (cg == null)
+                cg = levelCompletedPanel.AddComponent<CanvasGroup>();
+
             cg.alpha = 0f;
             levelCompletedPanel.SetActive(false);
         }
 
-        if (feedbackText != null) feedbackText.text = "";
+        if (feedbackText != null)
+            feedbackText.text = "";
 
         if (screenFlashImage != null)
         {
@@ -88,23 +96,56 @@ public class Level3Manager : MonoBehaviour
         }
 
         missions.Clear();
-        missions.Add(new MorseMission { word = "AGE OF LOVE", morseCode = ".- --. . --- ..-. .-.. --- ...- ." });
-        missions.Add(new MorseMission { word = "CONNECTION", morseCode = "-.-. --- -. -. . -.-. - .. --- -." });
-        missions.Add(new MorseMission { word = "ACROSS AGES", morseCode = ".- -.-. .-. --- ... ... .- --. . ..." });
-        missions.Add(new MorseMission { word = "TIMELESS", morseCode = "- .. -- . .-.. . ... ..." });
-        missions.Add(new MorseMission { word = "FOREVER", morseCode = "..-. --- .-. . ...- . .-." });
-        missions.Add(new MorseMission { word = "DEVOTION", morseCode = "-.. . ...- --- - .. --- -." });
+
+        missions.Add(new MorseMission
+        {
+            word = "AGE OF LOVE",
+            morseCode = ".- --. . --- ..-. .-.. --- ...- ."
+        });
+
+        missions.Add(new MorseMission
+        {
+            word = "CONNECTION",
+            morseCode = "-.-. --- -. -. . -.-. - .. --- -."
+        });
+
+        missions.Add(new MorseMission
+        {
+            word = "ACROSS AGES",
+            morseCode = ".- -.-. .-. --- ... ... .- --. . ..."
+        });
+
+        missions.Add(new MorseMission
+        {
+            word = "TIMELESS",
+            morseCode = "- .. -- . .-.. . ... ..."
+        });
+
+        missions.Add(new MorseMission
+        {
+            word = "FOREVER",
+            morseCode = "..-. --- .-. . ...- . .-."
+        });
+
+        missions.Add(new MorseMission
+        {
+            word = "DEVOTION",
+            morseCode = "-.. . ...- --- - .. --- -."
+        });
 
         LoadMission(0);
     }
 
     void Update()
     {
-        if (isLevelFinished) return;
+        if (isLevelFinished)
+            return;
 
         if ((bookHintPanel != null && bookHintPanel.activeSelf) || isTypingTargetWord)
         {
-            if (isKeyHeld) StopBeep();
+            if (isKeyHeld)
+                StopBeep();
+
             return;
         }
 
@@ -119,6 +160,7 @@ public class Level3Manager : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.M) && isKeyHeld)
         {
             float pressDuration = Time.time - keyDownTime;
+
             isKeyHeld = false;
             StopBeep();
 
@@ -130,28 +172,35 @@ public class Level3Manager : MonoBehaviour
             UpdateInputDisplay();
         }
 
-        // Space veya B: Boşluk Bırakma
+        // Space veya B: Boşluk
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.B))
         {
-            if (currentEnteredMorse.Length > 0 && !currentEnteredMorse.EndsWith(" "))
+            if (currentEnteredMorse.Length > 0 &&
+                !currentEnteredMorse.EndsWith(" "))
             {
                 currentEnteredMorse += " ";
                 UpdateInputDisplay();
             }
         }
 
-        // Backspace: Silme
+        // Backspace
         if (Input.GetKeyDown(KeyCode.Backspace))
         {
             if (currentEnteredMorse.Length > 0)
             {
-                currentEnteredMorse = currentEnteredMorse.Substring(0, currentEnteredMorse.Length - 1);
+                currentEnteredMorse =
+                    currentEnteredMorse.Substring(
+                        0,
+                        currentEnteredMorse.Length - 1
+                    );
+
                 UpdateInputDisplay();
             }
         }
 
-        // Enter: Gönderme
-        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        // Enter
+        if (Input.GetKeyDown(KeyCode.Return) ||
+            Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             SubmitMorse();
         }
@@ -167,20 +216,27 @@ public class Level3Manager : MonoBehaviour
 
         currentMissionIndex = index;
         currentEnteredMorse = "";
+
         UpdateInputDisplay();
 
         if (targetWordText != null)
         {
             StopCoroutine(nameof(TypewriterWordRoutine));
-            StartCoroutine(TypewriterWordRoutine(missions[currentMissionIndex].word));
+            StartCoroutine(
+                TypewriterWordRoutine(
+                    missions[currentMissionIndex].word
+                )
+            );
         }
 
-        if (feedbackText != null) feedbackText.text = "";
+        if (feedbackText != null)
+            feedbackText.text = "";
     }
 
     private IEnumerator TypewriterWordRoutine(string fullWord)
     {
         isTypingTargetWord = true;
+
         targetWordText.text = "";
 
         foreach (char c in fullWord)
@@ -195,54 +251,74 @@ public class Level3Manager : MonoBehaviour
     void UpdateInputDisplay()
     {
         if (playerMorseInputText != null)
-        {
             playerMorseInputText.text = currentEnteredMorse;
-        }
     }
 
     void SubmitMorse()
     {
-        // Boşlukları temizleyip tek tip hale getirerek karşılaştırıyoruz
-        string cleanExpected = CleanMorse(missions[currentMissionIndex].morseCode);
-        string cleanPlayer = CleanMorse(currentEnteredMorse);
+        string cleanExpected =
+            CleanMorse(missions[currentMissionIndex].morseCode);
 
-        Debug.Log($"[KONTROL] Beklenen: '{cleanExpected}' | Girilen: '{cleanPlayer}'");
+        string cleanPlayer =
+            CleanMorse(currentEnteredMorse);
+
+        Debug.Log(
+            $"[KONTROL] Beklenen: '{cleanExpected}' | Girilen: '{cleanPlayer}'"
+        );
 
         if (cleanPlayer == cleanExpected)
         {
-            Debug.Log("<color=green>[BAŞARILI] Kod doğru! Panel tetikleniyor...</color>");
+            Debug.Log(
+                "<color=green>[BAŞARILI] Kod doğru! Panel tetikleniyor...</color>"
+            );
+
             OnSuccess();
         }
         else
         {
-            Debug.Log("<color=red>[HATALI] Kod uyuşmadı!</color>");
+            Debug.Log(
+                "<color=red>[HATALI] Kod uyuşmadı!</color>"
+            );
+
             OnFail();
         }
     }
 
-    // Fazladan girilen veya eksik kalan boşlukları toparlayan temizleyici
     string CleanMorse(string input)
     {
-        if (string.IsNullOrEmpty(input)) return "";
-        string[] parts = input.Trim().Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
+        if (string.IsNullOrEmpty(input))
+            return "";
+
+        string[] parts =
+            input.Trim().Split(
+                new char[] { ' ' },
+                System.StringSplitOptions.RemoveEmptyEntries
+            );
+
         return string.Join(" ", parts);
     }
 
     void OnSuccess()
     {
         StartCoroutine(FlashRoutine(Color.green));
+
         TriggerLevelComplete();
     }
 
     void OnFail()
     {
-        if (feedbackText != null) feedbackText.text = "";
+        if (feedbackText != null)
+            feedbackText.text = "";
 
         StartCoroutine(FlashRoutine(Color.red));
+
         if (shakeTarget != null)
-            StartCoroutine(ShakeRoutine(shakeTarget, 0.25f, 15f));
+            StartCoroutine(
+                ShakeRoutine(shakeTarget, 0.25f, 15f)
+            );
 
         currentEnteredMorse = "";
+
         UpdateInputDisplay();
 
         if (currentMissionIndex + 1 < missions.Count)
@@ -253,70 +329,107 @@ public class Level3Manager : MonoBehaviour
 
     public void TriggerLevelComplete()
     {
+        if (isLevelFinished)
+            return;
+
         isLevelFinished = true;
-        if (feedbackText != null) feedbackText.text = "";
+
+        if (feedbackText != null)
+            feedbackText.text = "";
 
         StartCoroutine(ShowCompletedPanelRoutine());
     }
 
     private IEnumerator ShowCompletedPanelRoutine()
     {
+        // Completed Sheet'i göster
         if (levelCompletedPanel != null)
         {
-            // Paneli en öne taşı ve aç
             levelCompletedPanel.transform.SetAsLastSibling();
             levelCompletedPanel.SetActive(true);
 
-            CanvasGroup cg = levelCompletedPanel.GetComponent<CanvasGroup>();
-            if (cg == null) cg = levelCompletedPanel.AddComponent<CanvasGroup>();
+            CanvasGroup cg =
+                levelCompletedPanel.GetComponent<CanvasGroup>();
+
+            if (cg == null)
+                cg = levelCompletedPanel.AddComponent<CanvasGroup>();
 
             cg.alpha = 0f;
+
             float elapsed = 0f;
 
-            // Yavaşça görünür yap (Fade-In)
+            // Completed Sheet fade-in
             while (elapsed < panelFadeDuration)
             {
                 elapsed += Time.deltaTime;
-                cg.alpha = Mathf.Clamp01(elapsed / panelFadeDuration);
+
+                cg.alpha =
+                    Mathf.Clamp01(
+                        elapsed / panelFadeDuration
+                    );
+
                 yield return null;
             }
+
             cg.alpha = 1f;
         }
         else
         {
-            Debug.LogError("DİKKAT: GameManager üzerindeki 'Level Completed Panel' yuvası BOŞ!");
+            Debug.LogError(
+                "DİKKAT: Level Completed Panel boş!"
+            );
         }
 
+        // Completed Sheet ekranda biraz kalsın
         yield return new WaitForSeconds(delayBeforeNextScene);
 
-        if (!string.IsNullOrEmpty(nextSceneName))
+        // Completed Sheet'i KAPAT
+        if (levelCompletedPanel != null)
         {
-            if (Application.CanStreamedLevelBeLoaded(nextSceneName))
-            {
-                SceneManager.LoadScene(nextSceneName);
-            }
-            else
-            {
-                Debug.LogWarning($"'{nextSceneName}' Build Settings içinde ekli değil!");
-            }
+            levelCompletedPanel.SetActive(false);
+        }
+
+        // Ekran karartma + tarih
+        if (scene3Fade != null)
+        {
+            Debug.Log("SCENE 3 FADE BAŞLATILIYOR!");
+
+            scene3Fade.StartTransition();
+        }
+        else
+        {
+            Debug.LogError(
+                "SCENE3 FADE BAĞLANMAMIŞ! Level3Manager Inspector'ındaki Scene 3 Fade alanına Scene3Fade objesini bağla."
+            );
         }
     }
 
     private IEnumerator FlashRoutine(Color flashColor)
     {
-        if (screenFlashImage == null) yield break;
+        if (screenFlashImage == null)
+            yield break;
 
         screenFlashImage.color = flashColor;
+
         float elapsed = 0f;
         float duration = 0.35f;
 
         while (elapsed < duration)
         {
             elapsed += Time.deltaTime;
-            float alpha = Mathf.Lerp(0.5f, 0f, elapsed / duration);
+
+            float alpha =
+                Mathf.Lerp(
+                    0.5f,
+                    0f,
+                    elapsed / duration
+                );
+
             Color c = screenFlashImage.color;
             c.a = alpha;
+
             screenFlashImage.color = c;
+
             yield return null;
         }
 
@@ -325,18 +438,30 @@ public class Level3Manager : MonoBehaviour
         screenFlashImage.color = finalC;
     }
 
-    private IEnumerator ShakeRoutine(RectTransform target, float duration, float magnitude)
+    private IEnumerator ShakeRoutine(
+        RectTransform target,
+        float duration,
+        float magnitude)
     {
-        Vector2 originalPos = target.anchoredPosition;
+        Vector2 originalPos =
+            target.anchoredPosition;
+
         float elapsed = 0f;
 
         while (elapsed < duration)
         {
-            float x = Random.Range(-1f, 1f) * magnitude;
-            float y = Random.Range(-1f, 1f) * magnitude;
-            target.anchoredPosition = originalPos + new Vector2(x, y);
+            float x =
+                Random.Range(-1f, 1f) * magnitude;
+
+            float y =
+                Random.Range(-1f, 1f) * magnitude;
+
+            target.anchoredPosition =
+                originalPos +
+                new Vector2(x, y);
 
             elapsed += Time.deltaTime;
+
             yield return null;
         }
 
@@ -354,7 +479,9 @@ public class Level3Manager : MonoBehaviour
         else
         {
             isGeneratingSound = true;
-            if (!audioSource.isPlaying) audioSource.Play();
+
+            if (!audioSource.isPlaying)
+                audioSource.Play();
         }
     }
 
@@ -366,21 +493,42 @@ public class Level3Manager : MonoBehaviour
             isGeneratingSound = false;
     }
 
-    void OnAudioFilterRead(float[] data, int channels)
+    void OnAudioFilterRead(
+        float[] data,
+        int channels)
     {
-        if (!isGeneratingSound) return;
+        if (!isGeneratingSound)
+            return;
 
-        double increment = morseFrequency * 2.0 * System.Math.PI / sampleRate;
+        double increment =
+            morseFrequency *
+            2.0 *
+            System.Math.PI /
+            sampleRate;
 
-        for (int i = 0; i < data.Length; i += channels)
+        for (
+            int i = 0;
+            i < data.Length;
+            i += channels)
         {
             phase += increment;
-            float sample = (float)(System.Math.Sin(phase) * beepVolume);
 
-            for (int c = 0; c < channels; c++)
+            float sample =
+                (float)(
+                    System.Math.Sin(phase) *
+                    beepVolume
+                );
+
+            for (
+                int c = 0;
+                c < channels;
+                c++)
+            {
                 data[i + c] += sample;
+            }
 
-            if (phase > 2.0 * System.Math.PI) phase -= 2.0 * System.Math.PI;
+            if (phase > 2.0 * System.Math.PI)
+                phase -= 2.0 * System.Math.PI;
         }
     }
 }

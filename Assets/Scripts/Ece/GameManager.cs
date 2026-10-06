@@ -45,6 +45,14 @@ SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
     private void WinGame()
     {
         winText.SetActive(true);
-        Time.timeScale = 0f;
+
+        Time.timeScale = 1f;
+
+        Invoke(nameof(LoadNextScene), 1.5f);
+    }
+
+    private void LoadNextScene()
+    {
+        SceneManager.LoadScene("bird_outro");
     }
 }
